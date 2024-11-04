@@ -1,0 +1,20 @@
+[03-Jul-2024 21:03:32 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php on line 36
+[03-Jul-2024 21:03:39 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php on line 36
+[03-Jul-2024 21:03:46 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php on line 36
+[03-Jul-2024 21:03:55 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php on line 36
+[03-Jul-2024 21:04:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/vendor/phpmailer/phpmailer/src/OAuth.php on line 36

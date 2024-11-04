@@ -1,0 +1,615 @@
+[26-Jun-2024 10:37:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jun-2024 10:37:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'technic2_beta_intranet_user'@'biz60.lhws.net' (using password: YES) in /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php:16
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php(16): mysqli->__construct()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/model/login_model.php(3): dbConnection->__construct()
+#2 /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php(11): include('/home/technic2/...')
+#3 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php on line 16
+[26-Jun-2024 10:39:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jun-2024 10:39:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'technic2_beta_intranet_user'@'biz60.lhws.net' (using password: YES) in /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php:16
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php(16): mysqli->__construct()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/model/login_model.php(3): dbConnection->__construct()
+#2 /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php(11): include('/home/technic2/...')
+#3 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/commons/dbConnection.php on line 16
+[26-Jun-2024 10:40:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jun-2024 10:58:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[26-Jun-2024 10:58:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jun-2024 10:58:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jun-2024 16:29:08 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[26-Jun-2024 16:32:56 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[26-Jun-2024 16:33:24 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[26-Jun-2024 16:33:49 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[26-Jun-2024 16:35:04 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[26-Jun-2024 16:35:23 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'applied_date' in 'field list' in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php:93
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php(93): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php(262): HolidayLeave->addLeave()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/holiday-leave-model.php on line 93
+[27-Jun-2024 03:50:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Jun-2024 08:13:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 05:33:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 05:47:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 05:47:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 06:02:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 06:02:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 06:02:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Jun-2024 06:02:28 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Jul-2024 03:57:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 05:31:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 05:32:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 05:32:17 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 05:41:22 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 05:41:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 05:44:22 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 05:58:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 05:58:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:00:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:02:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:02:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:02:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:04:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:04:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:05:05 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:08:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:08:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:09:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:13:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:13:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:14:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:16:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:16:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'technic2_beta_intranet.module' doesn't exist in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php:191
+Stack trace:
+#0 /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php(191): mysqli->query()
+#1 /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php(29): User->getModulesByRole()
+#2 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/model/user-model.php on line 191
+[03-Jul-2024 06:17:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 06:18:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 8
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 8
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 9
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 9
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 10
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/order_controller.php on line 10
+[03-Jul-2024 17:04:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[03-Jul-2024 17:04:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[03-Jul-2024 17:05:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/qr_attendance_controller.php on line 2
+[05-Jul-2024 07:55:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 07:56:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 07:56:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 07:57:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[05-Jul-2024 07:57:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 08:01:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 08:03:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 08:03:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Jul-2024 08:05:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[08-Jul-2024 04:25:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 04:25:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 04:25:30 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 04:25:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:26:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:26:30 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:26:51 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:43:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:46:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 04:46:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 10:29:02 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "Admin" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 235
+[08-Jul-2024 10:29:11 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "Admin" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 235
+[08-Jul-2024 10:29:40 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "Admin" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 235
+[08-Jul-2024 05:00:45 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:00:53 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:01:08 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:01:39 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:01:40 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:10:01 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:12:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 05:13:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 05:14:28 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 05:14:41 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:16:36 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:17:19 UTC] PHP Parse error:  syntax error, unexpected identifier "Leave", expecting ")" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 240
+[08-Jul-2024 05:57:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 06:03:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 06:03:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Jul-2024 09:55:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[08-Jul-2024 09:56:05 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[08-Jul-2024 09:56:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[08-Jul-2024 10:32:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 10:33:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 10:35:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[08-Jul-2024 10:35:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:16:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 03:18:52 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:20:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:20:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 03:20:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:20:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 03:21:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 03:21:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 03:32:12 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:33:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:40:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:40:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:45:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:47:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:47:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:48:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:49:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:57:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 03:57:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 04:07:10 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 04:16:30 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 04:51:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 04:53:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[09-Jul-2024 04:57:59 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[09-Jul-2024 04:58:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[09-Jul-2024 08:23:28 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Jul-2024 09:37:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 03:40:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 03:42:47 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 08:57:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 09:10:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 09:10:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[10-Jul-2024 09:11:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:11:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:11:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:11:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:12:06 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:12:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[10-Jul-2024 09:13:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 02:38:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 02:39:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 02:40:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 02:45:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 02:45:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 02:54:28 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 02:54:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 02:55:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 03:00:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 05:10:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 06:01:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 06:04:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 06:05:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 06:06:02 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 06:10:30 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 11:30:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 11:33:17 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 11:36:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 7
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 8
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Undefined array key "user" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 9
+[11-Jul-2024 23:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[12-Jul-2024 02:23:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 02:26:03 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 02:28:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 02:29:12 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 02:29:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 05:49:52 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 05:51:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 05:51:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 08:15:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 08:16:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:17:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:17:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:18:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:18:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:26:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[12-Jul-2024 08:26:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[12-Jul-2024 08:32:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 08:55:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 09:27:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 10:22:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 10:22:10 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[12-Jul-2024 10:37:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 10:37:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 10:41:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 11:31:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Jul-2024 11:32:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 02:11:17 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 02:23:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 02:23:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 02:27:26 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 09:24:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 09:24:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 10:15:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 10:17:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[15-Jul-2024 10:47:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 11:33:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Jul-2024 11:35:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 02:24:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 02:27:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 02:28:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 02:30:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 02:31:10 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 04:04:03 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 11:31:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 11:31:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Jul-2024 11:40:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:24:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:25:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:25:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:25:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:44:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 02:50:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 05:34:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 05:35:26 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[17-Jul-2024 05:38:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[17-Jul-2024 05:39:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[17-Jul-2024 05:39:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[17-Jul-2024 11:15:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/attendance_controller.php on line 2
+[17-Jul-2024 11:30:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 11:33:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[17-Jul-2024 11:35:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 02:24:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 02:24:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 02:25:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 02:28:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 11:28:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[18-Jul-2024 11:33:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 02:10:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 02:22:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 02:23:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 02:26:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 02:30:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 11:31:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 11:31:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[19-Jul-2024 11:33:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Jul-2024 02:29:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Jul-2024 02:30:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Jul-2024 02:55:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Jul-2024 11:35:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Jul-2024 02:06:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Jul-2024 02:23:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Jul-2024 02:44:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Jul-2024 11:33:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 02:20:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 02:21:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 02:24:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 02:25:17 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 11:37:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[24-Jul-2024 16:20:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 02:26:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 02:27:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 02:27:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 02:29:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 02:40:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 11:35:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[25-Jul-2024 11:49:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:20:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:22:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:24:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:33:06 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:33:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 02:36:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 04:13:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 09:33:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 09:33:26 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 09:36:47 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 09:36:52 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 11:53:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Jul-2024 11:56:51 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 02:17:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 02:22:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 02:23:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 02:23:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 02:27:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 11:31:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 11:33:59 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Jul-2024 18:01:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 02:27:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 02:28:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 02:28:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 02:31:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 03:02:40 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 08:43:15 Asia/Colombo] PHP Warning:  Undefined array key "halffullday" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 271
+[30-Jul-2024 05:47:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 05:51:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 05:51:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Jul-2024 13:44:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 02:19:31 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 02:20:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 02:32:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 02:32:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 02:54:53 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 07:07:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 11:31:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 11:32:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[31-Jul-2024 11:36:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 02:16:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 02:19:59 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 02:26:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 02:30:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 03:11:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 10:50:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 10:55:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[01-Aug-2024 10:55:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[01-Aug-2024 10:56:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 10:56:47 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[01-Aug-2024 10:57:12 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[01-Aug-2024 10:57:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/user_controller.php on line 11
+[01-Aug-2024 11:34:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Aug-2024 02:18:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Aug-2024 02:21:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Aug-2024 02:22:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Aug-2024 11:29:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Aug-2024 11:29:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 02:19:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 02:20:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 02:21:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 02:22:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 11:26:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[05-Aug-2024 17:05:07 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 02:28:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 02:29:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 02:29:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 02:31:45 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 02:33:22 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 10:58:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 10:59:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 11:00:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[06-Aug-2024 11:34:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 02:14:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 02:18:26 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 02:29:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 02:38:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 07:07:00 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 11:33:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[07-Aug-2024 11:37:03 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 02:27:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 02:28:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 02:28:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 02:28:59 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 11:30:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[08-Aug-2024 11:30:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 02:26:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 02:27:52 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 02:29:21 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 02:48:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 03:01:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[09-Aug-2024 11:17:30 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 02:09:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 02:17:51 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 02:20:06 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 02:24:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 02:25:54 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 11:30:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[12-Aug-2024 11:33:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 02:26:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 02:27:18 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 02:28:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 02:30:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 02:34:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 08:17:47 Asia/Colombo] PHP Warning:  Undefined array key "halffullday" in /home/technic2/beta-intranet.technicalcreatives.lk/controller/holiday_leave_controller.php on line 271
+[13-Aug-2024 05:43:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 09:41:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 11:31:58 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[13-Aug-2024 11:34:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[14-Aug-2024 02:13:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[14-Aug-2024 02:20:42 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[14-Aug-2024 02:26:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[14-Aug-2024 02:30:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[14-Aug-2024 11:34:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Aug-2024 02:15:04 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Aug-2024 02:19:05 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Aug-2024 02:24:47 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[15-Aug-2024 02:28:16 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 02:20:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 02:22:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 02:23:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 02:23:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 11:31:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[16-Aug-2024 11:41:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[20-Aug-2024 02:19:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[20-Aug-2024 02:20:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[20-Aug-2024 02:22:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 02:00:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 02:08:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 02:21:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 02:21:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 03:41:56 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[21-Aug-2024 11:37:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 02:25:44 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 02:25:49 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 02:26:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 02:27:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 02:41:37 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[22-Aug-2024 11:40:22 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 02:12:08 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 02:13:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 02:16:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 02:16:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 02:26:11 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[23-Aug-2024 11:32:24 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 02:17:52 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 02:18:32 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 02:19:36 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 02:22:34 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 11:35:20 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[26-Aug-2024 11:37:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 02:27:59 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 02:28:29 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 02:28:39 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 02:31:06 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 11:33:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[27-Aug-2024 11:35:02 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 02:26:03 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 02:26:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 02:26:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 02:30:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 11:34:50 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[28-Aug-2024 18:02:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 02:28:48 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 02:30:41 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 02:42:57 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 07:42:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 11:27:38 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[29-Aug-2024 15:25:28 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 02:40:14 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 02:40:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 02:44:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 03:12:55 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 08:10:22 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 08:33:25 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 08:36:43 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 09:01:15 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 09:01:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[30-Aug-2024 09:15:09 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 02:16:33 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 02:38:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 02:56:51 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 03:57:19 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 03:57:40 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 09:46:01 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[02-Sep-2024 11:33:27 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Sep-2024 03:40:35 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Sep-2024 11:33:13 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[03-Sep-2024 11:34:46 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3
+[04-Sep-2024 02:36:23 UTC] PHP Warning:  Failed to set memory limit to 200 bytes (Current memory usage is 2097152 bytes) in /home/technic2/beta-intranet.technicalcreatives.lk/controller/login_controller.php on line 3

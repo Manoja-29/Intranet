@@ -1,0 +1,376 @@
+{
+    "Vavuniya": {
+        "popular": [
+        ],
+        "options": [
+            "Vavuniya"
+
+        ]
+    }, 
+    "Kalutara": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Alutgama", 
+            "Beruwala", 
+            "Ingiriya", 
+            "Wadduwa",
+            "Kalutara",
+            "Horana",
+            "Panadura",
+            "Matugama",
+            "Bandaragama"
+        ]
+    }, 
+    "Mullativu": {
+        "popular": [
+        ],
+        "options": [
+            "Mullativu"
+
+        ]
+    }, 
+    "Matara": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Deniyaya", 
+            "Kamburugamuwa", 
+            "Kamburupitiya", 
+            "Kekanadurra",
+            "Matara",
+            "Akuressa",
+            "Weligama",
+            "Dikwella",
+            "Hakmana"
+        ]
+    }, 
+    "Anuradhapura": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Galenbindunuwewa", 
+            "Galnewa", 
+            "Habarana", 
+            "Mihintale", 
+            "Nochchiyagama", 
+            "Talawa",
+            "Anuradhapura",
+            "Kekirawa",
+            "Tambuttegama",
+            "Medawachchiya",
+            "Eppawala"
+        ]
+    }, 
+    "Trincomalee": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Trincomalee",
+            "Kinniya"
+        ]
+    }, 
+    "Galle": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Ahangama", 
+            "Batapola", 
+            "Bentota", 
+            "Karapitiya",
+            "Galle",
+            "Ambalangoda",
+            "Elpitiya",
+            "Hikkaduwa",
+            "Baddegama"
+        ]
+    }, 
+    "Batticaloa": {
+        "popular": [
+        ],
+        "options": [
+            "Batticaloa"
+
+        ]
+    }, 
+    "Matale": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Palapathwela", 
+            "Sigiriya", 
+            "Yatawatta",
+            "Matale",
+            "Dambulla",
+            "Galewela",
+            "Ukuwela",
+            "Rattota"
+        ]
+    }, 
+    "Moneragala": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Moneragala",
+            "Buttala",
+            "Wellawaya",
+            "Bibile",
+            "Kataragama"
+        ]
+    }, 
+    "Polonnaruwa": {
+        "popular": [
+
+        ], 
+        "options": [
+
+            "Polonnaruwa",
+            "Hingurakgoda",
+            "Kaduruwela",
+            "Medirigiriya"
+        ]
+    }, 
+    "Kilinochchi": {
+        "popular": [
+        ],
+        "options": [
+            "Kilinochchi"
+
+        ]
+    }, 
+    "Kandy": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Akurana", 
+            "Ampitiya", 
+            "Digana", 
+            "Galagedara", 
+            "Gelioya", 
+            "Kadugannawa", 
+            "Madawala Bazaar", 
+            "Nawalapitiya", 
+            "Pilimatalawa", 
+            "Wattegama",
+            "Kandy",
+            "Katugastota",
+            "Gampola",
+            "Peradeniya",
+            "Kundasale"
+        ]
+    }, 
+    "Ratnapura": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Kuruwita",
+            "Ratnapura",
+            "Embilipitiya",
+            "Balangoda",
+            "Pelmadulla",
+            "Eheliyagoda"
+        ]
+    }, 
+    "Ampara": {
+        "popular": [
+
+        ], 
+        "options": []
+    }, 
+    "Jaffna": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Jaffna",
+            "Nallur",
+            "Chavakachcheri",
+            "Ampara",
+            "Akkarepattu",
+            "Kalmunai",
+            "Sainthamaruthu"
+        ]
+    }, 
+    "Kurunegala": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Alawwa", 
+            "Bingiriya", 
+            "Galgamuwa", 
+            "Giriulla", 
+            "Hettipola", 
+            "Ibbagamuwa", 
+            "Nikaweratiya", 
+            "Polgahawela", 
+            "Wariyapola",
+            "Kurunegala",
+            "Kuliyapitiya",
+            "Narammala",
+            "Pannala",
+            "Mawathagama"
+        ]
+    }, 
+    "Hambantota": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Tangalla",
+            "Beliatta",
+            "Tissamaharama",
+            "Hambantota",
+            "Ambalantota"
+        ]
+    }, 
+    "Nuwara Eliya": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Nuwara Eliya",
+            "Hatton",
+            "Ginigathena",
+            "Madulla"
+        ]
+    }, 
+    "Puttalam": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Dankotuwa",
+            "Chilaw",
+            "Wennappuwa",
+            "Puttalam",
+            "Nattandiya",
+            "Marawila"
+        ]
+    }, 
+    "Kegalle": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Dehiowita", 
+            "Deraniyagala", 
+            "Galigamuwa", 
+            "Kitulgala", 
+            "Yatiyantota",
+            "Kegalle",
+            "Mawanella",
+            "Warakapola",
+            "Rambukkana",
+            "Ruwanwella"
+        ]
+    }, 
+    "Badulla": {
+        "popular": [
+
+        ], 
+        "options": [
+            "Diyatalawa", 
+            "Ella", 
+            "Haputale", 
+            "Passara",
+            "Badulla",
+            "Bandarawela",
+            "Welimada",
+            "Mahiyanganaya",
+            "Hali Ela"
+        ]
+    }, 
+    "Colombo": {
+        "options": [
+            "Angoda",
+            "Athurugiriya",
+            "Avissawella",
+            "Battaramulla",
+            "Boralesgamuwa",
+            "Colombo 1",
+            "Colombo 10",
+            "Colombo 11",
+            "Colombo 12",
+            "Colombo 13",
+            "Colombo 14",
+            "Colombo 15",
+            "Colombo 2",
+            "Colombo 3",
+            "Colombo 4",
+            "Colombo 5",
+            "Colombo 6",
+            "Colombo 7",
+            "Colombo 8",
+            "Colombo 9",
+            "Dehiwala",
+            "Hanwella",
+            "Homagama",
+            "Kaduwela",
+            "Kesbewa",
+            "Kohuwala",
+            "Kolonnawa",
+            "Kottawa",
+            "Kotte",
+            "Malabe",
+            "Maharagama",
+            "Moratuwa",
+            "Mount Lavinia",
+            "Nawala",
+            "Nugegoda",
+            "Padukka",
+            "Pannipitiya",
+            "Piliyandala",
+            "Ratmalana",
+            "Rajagiriya",
+            "Talawatugoda",
+            "Wellampitiya"
+        ],
+        "popular": [
+
+        ]
+
+
+    }, 
+    "Gampaha": {
+        "popular": [
+
+        ],
+        "options": [
+            "Delgoda", 
+            "Divulapitiya", 
+            "Ganemulla", 
+            "Kandana", 
+            "Katunayake", 
+            "Kiribathgoda", 
+            "Minuwangoda", 
+            "Mirigama", 
+            "Nittambuwa", 
+            "Ragama", 
+            "Veyangoda", 
+            "Wattala",
+            "Gampaha",
+            "Negombo",
+            "Kelaniya",
+            "Kadawatha",
+            "Ja-Ela"
+        ]
+    }, 
+    "Mannar": {
+        "popular": [
+        ],
+        "options": [
+            "Mannar"
+
+        ]
+    }
+}

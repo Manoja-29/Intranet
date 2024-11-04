@@ -1,0 +1,103 @@
+.outer-circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: rgb(33, 91, 184);
+    background: linear-gradient(0deg, rgb(36, 98, 186) 0%, rgb(89, 167, 236) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px auto;
+}
+.outer-circle1 {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #07cce3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.outer-circle2 {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #b84483;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.outer-circle3 {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #fce703;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.inner-circle {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inner-circle1 {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.time-label {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #495057;
+    font-size: 30px;
+    text-align: center;
+}
+.text {
+    color: #495057;
+}
+.minute {
+    font-size: 30px;
+    margin-top: -15px;
+}
+.sec {
+    font-size: 30px;
+    margin-top: -15px;
+}
+.hour {
+    font-size: 30px;
+    margin-top: -15px;
+}
+.text {
+    color: #495057;
+}
+.text1 {
+    color: #07cce3;
+    font-size: 26px;
+}
+.text2 {
+    color: #b84483;
+    font-size: 26px;
+}
+.text3 {
+    color: #edda07;
+    font-size: 26px;
+}
